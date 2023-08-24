@@ -37,7 +37,7 @@ jobs:
 
       - name: Gather files to invalidate in CloudFront
         uses: actions/github-script@d556feaca394842dc55e4734bf3bb9f685482fa0
-        if: github.event_name == 'push' # Don't run on scheduled runs
+        # if: github.event_name == 'push' # Don't run on scheduled runs
         id: invalidate-file-paths
         with:
           script: |
@@ -63,8 +63,7 @@ jobs:
             return filesToInvalidate.join(" ")
 
       - name: Invalidate assets in CloudFront
-        if: github.event_name == 'push' # Don't run on scheduled runs
+        # if: github.event_name == 'push' # Don't run on scheduled runs
+        if: ${{ steps.invalidate-file-paths.outputs.result != '' }}
         run: |
-          if [ ${{ steps.invalidate-file-paths.outputs.result }} != "" ]; then
-            aws cloudfront create-invalidation --distribution-id E2UP4JZ9NOWLGP --paths ${{ steps.invalidate-file-paths.outputs.result }}
-          fi
+          aws cloudfront create-invalidation --distribution-id E2UP4JZ9NOWLGP --paths ${{ steps.invalidate-file-paths.outputs.result }}
