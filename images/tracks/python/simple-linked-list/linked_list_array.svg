@@ -1,6 +1,6 @@
 <svg id="mermaid-1652027516197" xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink" height="152.3"
-    style="max-width: 1149.89px; background-color: rgb(255, 255, 255);" viewBox="0 0 1149.89 152.3">
+    style="max-width: 1149.89px; background-color: none);" viewBox="0 0 1149.89 152.3">
     <style>
         #mermaid-1652027516197 {
             font-family: "trebuchet ms", verdana, arial, sans-serif;
@@ -38,12 +38,12 @@
         }
 
         #mermaid-1652027516197 .marker {
-            fill: #333333;
-            stroke: #333333;
+            fill: #F6B303;
+            stroke: #F6B303;
         }
 
         #mermaid-1652027516197 .marker.cross {
-            stroke: #333333;
+            stroke: #F6B303;
         }
 
         #mermaid-1652027516197 svg {
@@ -75,8 +75,8 @@
         #mermaid-1652027516197 .node ellipse,
         #mermaid-1652027516197 .node polygon,
         #mermaid-1652027516197 .node path {
-            fill: #ECECFF;
-            stroke: #9370DB;
+            fill: #F5DE90;
+            stroke: #F6B303;
             stroke-width: 1px;
         }
 
@@ -89,16 +89,16 @@
         }
 
         #mermaid-1652027516197 .arrowheadPath {
-            fill: #333333;
+            fill: #F6B303;
         }
 
         #mermaid-1652027516197 .edgePath .path {
-            stroke: #333333;
+            stroke: #F6B303;
             stroke-width: 2.0px;
         }
 
         #mermaid-1652027516197 .flowchart-link {
-            stroke: #333333;
+            stroke: #F6B303;
             fill: none;
         }
 
@@ -114,8 +114,8 @@
         }
 
         #mermaid-1652027516197 .cluster rect {
-            fill: #ffffde;
-            stroke: #aaaa33;
+            fill: #F5DE90;
+            stroke: #F6B303;
             stroke-width: 1px;
         }
 
@@ -149,7 +149,7 @@
 
         * {
             fill: #D9D7FF !important;
-            stroke: #9F80DF !important;
+            stroke: #0f0e10 !important;
             stroke-width: 2px !important;
         }
 
@@ -168,23 +168,23 @@
         }
 
         #mermaid-1652027516197 .Beta span {
-            fill: #F5DE90 !important;
-            stroke: #F6B303 !important;
+            fill: #D9D7FF !important;
+            stroke: #9F80DF !important;
             stroke-width: 2px !important;
         }
 
         #mermaid-1652027516197 .WIP&gt;
 
         * {
-            fill: #DEE8BB !important;
-            stroke: #AFAC6A !important;
+            fill: #D9D7FF !important;
+            stroke: #9F80DF !important;
             stroke-width: 4px !important;
             stroke-dasharray: 5 5 !important;
         }
 
         #mermaid-1652027516197 .WIP span {
-            fill: #DEE8BB !important;
-            stroke: #AFAC6A !important;
+            fill: #F5DE90 !important;
+            stroke: #F6B303 !important;
             stroke-width: 4px !important;
             stroke-dasharray: 5 5 !important;
         }
@@ -192,8 +192,8 @@
         #mermaid-1652027516197 .TBD-f&gt;
 
         * {
-            fill: #C4D7FF !important;
-            stroke: #97AFFF !important;
+            fill: #D9D7FF !important;
+            stroke: #9F80DF !important;
             stroke-width: 2px !important;
         }
 
