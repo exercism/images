@@ -19,7 +19,7 @@
 	</defs>
 	<style>
 		<!-- background -->
-		.s0 { fill: #fbfbf9 }
+		.s0 { fill: none }
 		<!-- box fill -->
 		.s1 { fill: #3a3c2c }
 		<!-- median -->
