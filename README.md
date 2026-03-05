@@ -7,3 +7,4 @@ Everything must be put under `images`.
 URLs should currently point to `https://assets.exercism.org/[PATH_IN_THIS_REPO`. For example:
 - The file at `images/exercises/paint-by-number/smiley-numbers.png`
 - is hosted at https://assets.exercism.org/images/exercises/paint-by-number/smiley-numbers.png
+
